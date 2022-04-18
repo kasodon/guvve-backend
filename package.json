@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/index.js",
     "start": "npm run prod",
-    "prod": "NODE_ENV=production npm-run-all clean build server:prod",
+    "prod": "nodemon --exec babel-node ./src/index.js",
     "clean": "rm -rf dist && mkdir dist",
     "build": "babel ./src --out-dir dist",
     "server:prod": "node ./dist/index.js",
