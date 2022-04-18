@@ -16,13 +16,18 @@
     "type": "",
     "url": ""
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
   "homepage": "",
+  "engines": {
+    "node": "16.x"
+  },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
