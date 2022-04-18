@@ -22,8 +22,6 @@ app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/testing', routes.testing)
-// app.use('/items', routes.items)
 app.use('/users', routes.users)
 
 
