@@ -1,2 +1,2 @@
-web: npm run prod
+web: npm run server:prod
 npm: npm install
